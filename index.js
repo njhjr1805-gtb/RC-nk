@@ -57,6 +57,7 @@ app.get("/", async (req, res) => {
             <p>Salut bro !!</p>
             <a href="https://www.sjlp-paris.org/" target="_blank">clic</a>
             <p>test</p>
+            <a href="https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">RC</a>
             </body></html>
         `);
     }
