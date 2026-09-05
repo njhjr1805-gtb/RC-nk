@@ -55,6 +55,7 @@ app.get("/", async (req, res) => {
             <h1>Radio Classique</h1>
             <p>Erreur de connexion.</p>
             <p>Salut bro !!</p>
+            <a href="https://www.sjlp-paris.org/">clic</a>
             </body></html>
         `);
     }
