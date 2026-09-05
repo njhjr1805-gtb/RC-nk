@@ -54,6 +54,7 @@ app.get("/", async (req, res) => {
             <html><body>
             <h1>Radio Classique</h1>
             <p>Erreur de connexion.</p>
+            <Ceci est un message de ma part !>
             </body></html>
         `);
     }
