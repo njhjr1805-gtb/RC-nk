@@ -7,9 +7,14 @@ const parser = new xml2js.Parser();
 app.get("/", async (req, res) => {
     try {
         const url = "https://data.radioclassique.fr/XML_Metadata/direct_2.xml";
-        const response = await fetch(url); // fetch intégré à Node.js
-        const xml = await response.text();
+        const response = await fetch(url, {
+            headers: {
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "application/xml,text/xml"
+            }
+        });
 
+        const xml = await response.text();
         const data = await parser.parseStringPromise(xml);
 
         let current = null;
