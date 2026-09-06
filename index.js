@@ -57,7 +57,10 @@ app.get("/", async (req, res) => {
             <p>Salut bro !!</p>
             <a href="https://www.sjlp-paris.org/" target="_blank">clic</a>
             <p>test</p>
-            <a href="https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">RC</a>
+            <a href="https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">RC</a> <br>
+            <a href="https://cast2aac.stream-proxy.net/?url=https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">
+            écouter RC
+            </a>
             </body></html>
         `);
     }
