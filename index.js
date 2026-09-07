@@ -64,6 +64,7 @@ app.get("/", async (req, res) => {
             écouter RC
             </a>
             <img src="/img.jpg" alt="Mon image">
+            <a href="https://www.radioclassique.fr/direct-radio/" target="_blank"> RCdirect </a>
             </body></html>
         `);
     }
