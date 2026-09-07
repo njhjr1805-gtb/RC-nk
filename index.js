@@ -62,8 +62,8 @@ app.get("/", async (req, res) => {
             <a href="https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">RC</a> <br>
             <a href="https://cast2aac.stream-proxy.net/?url=https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">
             écouter RC
-            </a>
-            <img src="/img.jpg" alt="Mon image">
+            </a> <br>
+            <img src="/img.jpg" alt="Mon image"> <br>
             <a href="https://www.radioclassique.fr/direct-radio/" target="_blank"> RCdirect </a>
             </body></html>
         `);
