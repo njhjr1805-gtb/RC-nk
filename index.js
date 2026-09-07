@@ -4,6 +4,8 @@ import xml2js from "xml2js";
 const app = express();
 const parser = new xml2js.Parser();
 
+app.use(express.static("public"));
+
 app.get("/", async (req, res) => {
     try {
         const url = "https://data.radioclassique.fr/XML_Metadata/direct_2.xml";
@@ -61,6 +63,7 @@ app.get("/", async (req, res) => {
             <a href="https://cast2aac.stream-proxy.net/?url=https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3">
             écouter RC
             </a>
+            <img src="/img.jpg" alt="Mon image">
             </body></html>
         `);
     }
